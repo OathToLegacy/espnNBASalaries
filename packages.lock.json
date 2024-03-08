@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net6.0": {
+      "HtmlAgilityPack": {
+        "type": "Direct",
+        "requested": "[1.11.59, )",
+        "resolved": "1.11.59",
+        "contentHash": "0tMaGzTJ5uFFMCYvprZ4hRYg6Dm5E+/WeMFJiD5K83Fe/Y6kyLaRKcfrfUwfb1j428XzB4/2RR7sdxoQX5eaEA=="
+      },
+      "OxyPlot.Core": {
+        "type": "Direct",
+        "requested": "[2.1.2, )",
+        "resolved": "2.1.2",
+        "contentHash": "/BuPL1Wa7ZhpKA2DBe72md+S8PgIHF+UP/NsKfO9BiheXnbns1/tqS7s2MWIR1xFy5i+PWVC67KziGPY48mNgA=="
+      },
+      "OxyPlot.Pdf": {
+        "type": "Direct",
+        "requested": "[2.1.2, )",
+        "resolved": "2.1.2",
+        "contentHash": "PtWcHpYQUgY9/gDQCJRKYamy+xPU7Z+f/0V+Ndf0nML9ISYPtFMkIG+EmmuiUcIqXOlPmpKBb50Tz8H2YtACRQ==",
+        "dependencies": {
+          "OxyPlot.Core": "2.1.2",
+          "PDFsharp-MigraDoc-GDI": "1.50.5147"
+        }
+      },
+      "OxyPlot.Wpf": {
+        "type": "Direct",
+        "requested": "[2.1.2, )",
+        "resolved": "2.1.2",
+        "contentHash": "udX9T1YC5BnnTZkVSNgJqvzXLaBcZDYG32YHWlDELk1UDWQeJi0Z2jBLoIiv4hcW16N4ptYO5cGC3e8m5/z0hw==",
+        "dependencies": {
+          "OxyPlot.Core": "2.1.2",
+          "OxyPlot.Wpf.Shared": "2.1.2"
+        }
+      },
+      "ScottPlot": {
+        "type": "Direct",
+        "requested": "[4.1.27, )",
+        "resolved": "4.1.27",
+        "contentHash": "Yy+vEeaECR3+t9LW8fcLq/0rYZwupw6kagHhtVSnfPslC7p3ZQfZOLFBgBSmumIVtkkZdG4SAsJbvChaep0OTg==",
+        "dependencies": {
+          "System.Drawing.Common": "4.6.1"
+        }
+      },
+      "System.Drawing.Common": {
+        "type": "Direct",
+        "requested": "[8.0.2, )",
+        "resolved": "8.0.2",
+        "contentHash": "oDedGrYVyzvtGZhgtURpeneHq9D3HQtrvU7q6iCRa+BbIXvTZayGFo0iK3b7qHrwQ/OOAn9B0ghzQH6AbW5LHg==",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        }
+      },
+      "Microsoft.Win32.SystemEvents": {
+        "type": "Transitive",
+        "resolved": "8.0.0",
+        "contentHash": "9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw=="
+      },
+      "OxyPlot.Wpf.Shared": {
+        "type": "Transitive",
+        "resolved": "2.1.2",
+        "contentHash": "6Cj7UET7AS5gVf77+avKG+PzaKQhTdqRYbyBTCPWW9JEbAsojpNdLICjVXO+5o/HP+DjshZJ6oCFw8eyRnHtCA==",
+        "dependencies": {
+          "OxyPlot.Core": "2.1.2"
+        }
+      },
+      "PDFsharp-MigraDoc-gdi": {
+        "type": "Transitive",
+        "resolved": "1.50.5147",
+        "contentHash": "hrPNGJ95aW03D9x2TYuadoR8bPh+pi/z6lYWspYU81QSjNAExy8F6+1dV5KBILZXu4R2dtawmX7SjKtCP8sEHg=="
+      }
+    }
+  }
+}
